@@ -6,7 +6,7 @@
 // email: String
 // favoriteColor: Array
 // isHavePet: String
-// education: Array, Object
+// education: Array
 // favoriteRestaurant: Array
 
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
@@ -18,9 +18,9 @@ const firstUser = {
   favoriteColor: ['Yellow', 'Pink', 'White', 'Purple'],
   isHavePet: 'Yes',
   education: [
-    { name: 'SD 01', city: 'Jakarta', graduate: '2016' },
-    { name: 'SMP 02', city: 'Jakarta', graduate: '2019' },
-    { name: 'SMA 03', city: 'Tanggerang' },
+    ['name: SD 01', 'city: Jakarta', 'graduate: 2016'],
+    ['name: SMP 02', 'city: Jakarta', 'graduate: 2019'],
+    ['name: SMA 03', 'city: Tanggerang'],
   ],
   favoriteRestaurant: ['Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi'],
 };
@@ -32,9 +32,9 @@ const secondUser = {
   favoriteColor: ['Blue', 'Black', 'Gray'],
   isHavePet: 'No',
   education: [
-    { name: 'SD 02', city: 'Jakarta', graduate: '2010' },
-    { name: 'SMP 03', city: 'Bogor', graduate: '2013' },
-    { name: 'SMA 01', city: 'Surabya', graduate: '2016' },
+    ['name: SD 02', 'city: Jakarta', 'graduate: 2010'],
+    ['name: SMP 03', 'city: Bogor', 'graduate: 2013'],
+    ['name: SMA 01', 'city: Surabya', 'graduate: 2016'],
   ],
   favoriteRestaurant: ['Tempura', 'Bento', 'Sushi', 'Pancake', 'Padang', 'Katsu', 'Geprek', 'Pancake', 'Eggy'],
 };
