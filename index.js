@@ -7,7 +7,7 @@
 // favoriteColor: Array
 // isHavePet: String
 // education: Array
-// favoriteRestaurant: Array
+// favoriteRestaurant: Set
 
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
 const firstUser = {
@@ -22,7 +22,7 @@ const firstUser = {
     ['name: SMP 02', 'city: Jakarta', 'graduate: 2019'],
     ['name: SMA 03', 'city: Tanggerang'],
   ],
-  favoriteRestaurant: ['Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi'],
+  favoriteRestaurant: new Set('Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi'),
 };
 const secondUser = {
   name: 'Wendy',
@@ -36,7 +36,7 @@ const secondUser = {
     ['name: SMP 03', 'city: Bogor', 'graduate: 2013'],
     ['name: SMA 01', 'city: Surabya', 'graduate: 2016'],
   ],
-  favoriteRestaurant: ['Tempura', 'Bento', 'Sushi', 'Pancake', 'Padang', 'Katsu', 'Geprek', 'Pancake', 'Eggy'],
+  favoriteRestaurant: new Set('Tempura', 'Bento', 'Sushi', 'Pancake', 'Padang', 'Katsu', 'Geprek', 'Pancake', 'Eggy'),
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
