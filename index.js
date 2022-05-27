@@ -21,7 +21,7 @@ const tteok = 'Tteok';
 const katsu = 'Katsu';
 const geprek = 'Geprek';
 
-const restaurant1 = [];
+let restaurant1 = [];
 restaurant1.push(bento1);
 restaurant1.push(sushi1);
 restaurant1.push(pancake1);
@@ -34,7 +34,7 @@ restaurant1.push(tteok);
 restaurant1.push(sushi2);
 restaurant1.push(sushi3);
 
-const restaurant2 = [];
+let restaurant2 = [];
 restaurant2.push(tempura2);
 restaurant2.push(bento3);
 restaurant2.push(sushi4);
@@ -58,7 +58,7 @@ const firstUser = {
     { name: 'SMP 02', city: 'Jakarta', graduate: '2019' },
     { name: 'SMA 03', city: 'Tangerang' },
   ],
-  favoriteRestaurant: restaurant1,
+  favoriteRestaurant: [...restaurant1],
 };
 const secondUser = {
   name: 'Wendy',
@@ -73,7 +73,7 @@ const secondUser = {
     { name: 'SMA 01', city: 'Surabaya', graduate: '2016' },
     { name: 'Universitas Maju', city: 'Tangerang' },
   ],
-  favoriteRestaurant: restaurant2,
+  favoriteRestaurant: [...restaurant2],
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
