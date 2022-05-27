@@ -1,29 +1,50 @@
 // TODO: Buatlah data dari kedua user di sini
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
+const bento1 = 'Bento';
+const bento2 = 'Bento';
+const bento3 = 'Bento';
+const sushi1 = 'Sushi';
+const sushi2 = 'Sushi';
+const sushi3 = 'Sushi';
+const sushi4 = 'Sushi';
+const pancake1 = 'Pancake';
+const pancake2 = 'Pancake';
+const pancake3 = 'Pancake';
+const eggy1 = 'Eggy';
+const eggy2 = 'Eggy';
+const eggy3 = 'Eggy';
+const tempura1 = 'Tempura';
+const tempura2 = 'Tempura';
+const padang1 = 'Padang';
+const padang2 = 'Padang';
+const tteok = 'Tteok';
+const katsu = 'Katsu';
+const geprek = 'Geprek';
 
-let restaurant1 = new Set();
-restaurant1.add('bento');
-restaurant1.add('sushi');
-restaurant1.add('pancake');
-restaurant1.add('eggy');
-restaurant1.add('tempura');
-restaurant1.add('bento');
-restaurant1.add('eggy');
-restaurant1.add('padang');
-restaurant1.add('tteok');
-restaurant1.add('sushi');
-restaurant1.add('sushi');
+const restaurant1 = [];
+restaurant1.push(bento1);
+restaurant1.push(sushi1);
+restaurant1.push(pancake1);
+restaurant1.push(eggy1);
+restaurant1.push(tempura1);
+restaurant1.push(bento2);
+restaurant1.push(eggy2);
+restaurant1.push(padang1);
+restaurant1.push(tteok);
+restaurant1.push(sushi2);
+restaurant1.push(sushi3);
 
-let restaurant2 = new Set();
-restaurant2.add('tempura');
-restaurant2.add('bento');
-restaurant2.add('sushi');
-restaurant2.add('pancake');
-restaurant2.add('padang');
-restaurant2.add('katsu');
-restaurant2.add('geprek');
-restaurant2.add('pancake');
-restaurant2.add('eggy');
+const restaurant2 = [];
+restaurant2.push(tempura2);
+restaurant2.push(bento3);
+restaurant2.push(sushi4);
+restaurant2.push(pancake2);
+restaurant2.push(padang2);
+restaurant2.push(katsu);
+restaurant2.push(geprek);
+restaurant2.push(pancake3);
+restaurant2.push(eggy3);
+
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
 const firstUser = {
   name: 'Monica',
